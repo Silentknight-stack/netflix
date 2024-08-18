@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-image: url("images/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.444;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 224px;
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 72.4%;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 30px 0;
+}
+.hero1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 8px 25px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+   
+}
+.btn-red-sm{
+    padding: 8px 25px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(254, 50, 4);
+    border-radius: 3px;
+    border: none;
+}
+.btn-red{
+    padding: 11px 30px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    border: none;
+}
+.btn i{
+    margin: 0 8px;
+}
+.btn-red i{
+    margin-left: 10px;
+}
+.sepration{
+    background-color: rgb(70, 67, 67);
+    /* opacity: 0.44; */
+    height:10px;
+}
+input{
+    margin-top: 30px;
+    color: white;
+    opacity: 0.44;
+    padding: 11px;
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    background-color: white;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.sec-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sec-content .bold{
+    font-size: 35px;
+}
+.sec-content .small{
+    font-size: 20px;
+}
+.sec-img img{
+    max-width: 60vh;
+    position: relative;
+    z-index: 10;
+}
+.sec-img{
+    position: relative;
+    
+}
+.sec-img video{
+    position: absolute;
+    top: 71px;
+    right: 64px;
+    width: 323px;
+}
+
+.sec-img-2 img{
+    max-width: 60vh;
+    position: relative;
+    z-index: 10;
+}
+.sec-img-2{
+    position: relative;
+    
+}
+.sec-img-2 video{
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    width: 280px;
+}
+.questions-box{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+}
+.question-content{
+    margin: 50px 0;
+}
+.question{
+    height: 80px;
+    width: 1000px;
+    background-color: rgb(70, 67, 67);
+    margin: 5px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.question span{
+    margin: 0 15px;
+}
+
+.question .plus-sign{
+    font-size: 50px;
+}
+.footer{
+    height: 500px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.footer ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.footer ul li{
+    margin: 10px 0;
+    color: white;
+}
+.footer ul li a{
+    color: white;
+}
+
+.btn-2{
+    padding: 10px 25px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    background-color: black;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.btn-2 i{
+    margin: 0 8px;
+}
+
+
+
+
